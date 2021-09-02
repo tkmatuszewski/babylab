@@ -1,13 +1,19 @@
-import logo from './logo.svg';
 import './settings/main.scss';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import * as routes from './constants/routes';
+import Main from './components/Main/Main';
 
-function App() {
+const App =()=> {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path={routes.signIn} component={SignIn} />
+          <Route exact path={routes.signUp} component={SignUp} />
+          <Route exact path={routes.home} component={Main} />
+          <Route exact path={routes.projects} component={Projects} />
+          <Route exact path={routes.add} component={Add} />
+      </Switch>
+    </Router>
   );
 }
 
