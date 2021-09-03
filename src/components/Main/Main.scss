@@ -1,0 +1,7 @@
+@import "./src/settings/colors";
+
+.appMain {
+    width: 100%;
+    min-height: 100vh;
+    background-color: $mainBgColor;
+}
