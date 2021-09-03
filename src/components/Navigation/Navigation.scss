@@ -1,0 +1,25 @@
+@import "./src/settings/colors";
+
+
+.navigation {
+    width: 30%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+.navigationItem {
+        cursor: pointer;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 2vh;
+        font-weight: 400;
+        transition: 0.3s;
+        
+    &:hover {
+        color: darken($accentColor, 30);        
+    }
+}
