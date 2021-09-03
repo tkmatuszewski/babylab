@@ -1,0 +1,28 @@
+
+.searchFilterEl {
+        height: 4vh;
+        width: 20%;
+        color: black;
+        background: white;
+        font-family: 'Noto Sans', sans-serif;
+        text-align: center;
+        line-height: 4vh;
+        border: 1px solid black;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .active {
+        background: black;
+        color: white;
+    }
+
+    .searchFilterSub {
+        list-style-type: none;
+        display: none;
+        transition: 0.3s;
+    
+        &:hover {
+            display: block;
+        }
+    }
