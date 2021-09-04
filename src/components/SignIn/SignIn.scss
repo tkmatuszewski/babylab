@@ -1,0 +1,93 @@
+@import "../../settings/colors.scss";
+
+.signIn {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.signInLeft {
+    width: 50%;
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-columns: 1fr;
+
+    .signInForm {
+        grid-row: 2/3;
+        width: 55%;
+        height: 100%;
+        justify-self: center;
+        font-family: "NotoSans", sans-serif;
+        background: white;
+        border-radius: 20px;
+
+        .signInFormTitle {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 5vh;
+            margin-bottom: 10vh;
+            display: block;
+                background: -webkit-linear-gradient(0deg, rgb(0,113,198), rgb(91,197,242));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+        }
+
+        .signInFormLabel {
+            display: block;
+            margin-bottom: 1vh;
+            min-height: 5vh;
+        }
+
+        input {
+            text-indent: 3%;
+            font-size: 1.2em;
+            width: 100%;
+            height: 4vh;
+            border-radius: 10px;
+            border: 0.25px solid gray;
+        }
+
+        .signInFormLinks {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        p {
+            letter-spacing: 1.2;
+            font-weight: 600;
+            color: darkgray;
+        }
+
+        a {
+            color: $accentColor;
+        }
+    }
+
+    .signInFormBtn {
+        width: 100%;
+        height: 6vh;
+        border-radius: 20px;
+        background: $accentColor;
+        border: none;
+        cursor: pointer;
+        margin-top: 6vh;
+        color: white;
+        font-size: 1.2em;
+        font-weight: bold;
+        background: rgb(0,113,198);
+        transition: 0.4s;
+
+        &:hover {
+        background:  rgb(91,197,242);
+        }
+    }
+}
+
+.signInRight {
+    width: 50%;
+    background: linear-gradient(45deg, rgb(0,113,198),rgb(240,125,23));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
