@@ -11,3 +11,10 @@
       url("../fonts/Comfortaa-VariableFont.ttf") format("truetype");
     font-weight: normal;
   }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: local("Comfortaa"),
+      url("../fonts/Montserrat-Bold.ttf") format("truetype");
+    font-weight: bold;
+  }
