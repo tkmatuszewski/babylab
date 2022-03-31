@@ -1,0 +1,24 @@
+@import "../../settings/fontSizes.scss";
+@import "../../settings/colors.scss";
+
+  .progression__circle {
+    background: black;
+    border-radius: 50%;
+    width: 15vh;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-50%);
+  }
+
+  .progression__couter {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: $fontM;
+    letter-spacing: 5px;
+    color: white;
+  }

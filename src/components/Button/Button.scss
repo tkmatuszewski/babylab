@@ -1,0 +1,38 @@
+.btn__primary {
+    padding: 1rem 5rem;
+    font-size: $fontM;
+    font-weight: bold;
+    background: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        background: black;
+        color: white;
+    }
+}
+
+.btn__secondary, .btn__submit {
+    padding: 0.5rem 2rem;
+    font-size: $fontM;
+    background: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        background: black;
+        color: white;
+    }
+}
+
+.btn__submit {
+    background: lightblue;
+    color: white;
+
+    &:hover {
+        background: blue;
+        // color: blue;
+    }
+}

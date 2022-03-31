@@ -1,0 +1,116 @@
+@import "./../../settings/colors.scss";
+@import"./../../settings/fontSizes.scss";
+
+.modalDim {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100vw;
+    height: 100vh;
+    background: $modalBg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.modal {
+    width: 40vw;
+    height: 60vh;
+    // border: 1px solid darkgray;
+    background: rgb(3, 40, 207);
+    // border-radius: 20px;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 17% auto 17%;
+}
+
+.modalTop{
+    grid-row: 1/2;
+    min-width: 100%;
+
+    .modalClose{
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        display: block;
+        margin-left: auto; 
+        margin-right: 10px;
+        margin-top: 10px;
+
+        &:before,
+         &:after {
+            content:"";
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%)rotate(45deg);
+            background: white;
+        }
+
+        &:after {
+            transform: translate(-50%,-50%)rotate(-45deg);
+        }
+    }
+}
+
+.modalCnt {
+    width: 90%;
+    // height: 66%;
+    grid-row: 2/3;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: space-between;
+    margin: 0 auto;
+}
+
+.modalTitle {
+    font-size: $fontL;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid gray;
+}
+
+.modalContent {
+    width: 100%;
+    // min-height: 75%;
+    font-size: $fontL;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.modalBtns {
+//   display: flex;
+//   justify-content: center;
+width: 100%;
+margin-top: 3rem;
+//   align-items: center;
+button {
+    font-size: $fontM;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    background: transparent;
+    width: 100%;
+    border: none;
+    text-align: left;
+    border-bottom: 1px solid white;
+    line-height: 1.2;
+    padding: 1rem 0;
+    cursor: pointer;
+    // margin: 0.25rem 0;
+    &:hover {
+        color: $accentColor;
+    }
+}
+}

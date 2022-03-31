@@ -1,0 +1,50 @@
+@import "../../settings/fontSizes.scss";
+@import "../../settings/colors.scss";
+
+.add {
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    overflow: hidden;
+    margin-left: 65px;
+
+    a {
+      width: auto;
+    }
+
+    form {
+      position: relative;
+      min-height: 70vh;
+      width: 80%;
+    }
+}
+
+.add__container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add__container>div {
+  width: 80%;
+}
+
+
+.add__photo {
+  width: 40%;
+  height: 100%;
+  // background: gray;
+  background: url('../../assets/balls.jpg') center;
+  background-size: cover;
+  opacity: 0;
+  transform: translateY(-50px);
+}
+
+// .add__circle__small {
+//   width: 20vh;
+//   height: 20vh;
+//   border-radius: 50%;
+//   background-color: red;
+// }

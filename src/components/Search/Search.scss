@@ -2,36 +2,17 @@
 @import "../../settings/colors.scss";
 
 .search {
-    grid-column: 1/4;
-    margin-top: 1vh;
     height: 5vh;
-    background:$searchBarColor;
-
-    .searchCnt {
-        margin: 0 auto;
-        line-height: 5vh;
-        width: $mainWidth;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+    margin: 1rem 0;
+    line-height: 5vh;
+    display: flex;
     
     input {
-        width: 50%;
-        height: 80%;
+        width: 66%;
         border: 0.25px solid gray;
-        border-radius: 20px;
+        border-radius: 15px;
         font-size: 1.2rem;
         font-family: 'Noto Sans', sans-serif;
         text-indent: 3%;
-    }
-
-    .searchFilterList {
-        width: 40%;
-        list-style-type: none;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
     }
 }

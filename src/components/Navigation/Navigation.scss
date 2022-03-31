@@ -1,25 +1,66 @@
 @import "./src/settings/colors";
 
-
 .navigation {
-    width: 30%;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
+  // width: 60px;
+  height: 100%;
+  list-style-type: none;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  list-style-type: none;
+  background: black;
 
-    a {
-        text-decoration: none;
-        color: black;
+  a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 7vh;
+    min-width: 60px;
+    padding: 1.5rem 0;
+    // transition: 0.3s;
+    font-size: $fontM;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+     &:hover {
+      background-color: $accentColdColor;
+      // color: white;
     }
+  }
 }
+
+.navigation__icon {
+  // position: absolute;
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin: 0 20px;
+  flex-shrink: 0;
+  opacity: 0;
+  // left: -5px;
+  transform: translate(-5px, 0);
+}
+
+#database {
+  background: url('../../assets/database-solid.svg') center;
+}
+
+#newChild {
+  background: url('../../assets/user-plus-solid\ \(1\).svg') center;
+}
+
+#stats {
+  background: url('../../assets/chart-column-solid.svg') center;
+}
+
+#projects {
+  background: url('../../assets/rocket-solid.svg') center;
+}
+
 .navigationItem {
-        cursor: pointer;
-        font-family: 'Noto Sans', sans-serif;
-        font-size: 2vh;
-        font-weight: 400;
-        transition: 0.3s;
-        
-    &:hover {
-        color: darken($accentColor, 30);        
-    }
+  display: none;
+  opacity: 0;
+  font-family: "Noto Sans", sans-serif;
+  transform: translate(-50px, 0);
 }

@@ -1,0 +1,32 @@
+.addSummary__row{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+
+    ul {
+        list-style-type: none;
+        font-family: "Open Sans", sans-serif;
+        flex-grow: 2;
+    }
+
+    li {
+        padding: 0.3rem 0;
+        line-height: 2;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+    }
+
+    h4 {
+        width: 15%;
+        color: rgba(0,0,0,0.4);
+        font-size: $fontM;
+        font-family: "Montserrat", sans-serif;
+        padding-bottom: 0.5rem;
+    }
+
+    span {
+        color: rgba(0,0,0,0.4);
+        font-weight: 700;
+    }
+}

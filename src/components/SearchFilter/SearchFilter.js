@@ -1,23 +1,16 @@
-import React, {useState} from "react";
-import classNames from "classnames";
+import React from "react";
 
-const SearchFilter = ({name, children}) => {
-    
-    const [active, setActive] = useState(false)
+const SearchFilter = ({name}) => {
 
-    const handleClick = () => {
-        setActive(!active)
-      }
-
-      const listEl = 
-      classNames('searchFilterEl', {'active': active})
     return (
-    <li className={listEl} id={name} onClick={()=>handleClick()}>
-        <ul>{name}
-        {children}
-        </ul>
-    </li>
-    )
+      <option
+        className={"searchFilterEl"}
+        id={name}
+        value={name}
+      >
+        {name}
+      </option>
+    );
 }
 
 export default SearchFilter;

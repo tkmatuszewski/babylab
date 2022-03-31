@@ -25,11 +25,18 @@
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
             font-size: 5vh;
-            margin-bottom: 10vh;
+            margin-bottom: 5vh;
             display: block;
                 background: -webkit-linear-gradient(0deg, rgb(0,113,198), rgb(91,197,242));
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
+        }
+
+        .signInError {
+            
+            color: red;
+            min-height: 2vh;
+            margin: 2vh 0;
         }
 
         .signInFormLabel {

@@ -1,0 +1,132 @@
+.child__cnt {
+  width: 100%;
+  a {
+    // width: 100%;
+    //   display: block;
+  text-decoration: none;
+  color: black;
+  }
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    width: 100%;
+    height: 2.5rem;
+    font-family: "Open Sans", sans-serif;
+    transition: 0.5s;
+
+    &:hover {
+      background: rgba(0,0,0,0.1);
+    }
+  }
+
+  .child__index {
+    text-align: center;
+    width: 5%;
+  }
+  
+  .child__sex {
+    width: 5%;
+  }
+  
+  .child__index {
+    // width: 5%;
+  }
+  
+  .child__sex.female{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background: pink;
+    margin: 0 auto;
+  }
+  
+  .child__sex.male {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background: lightblue;
+    margin: 0 auto;
+  }
+  
+  .child__name {
+    // margin-left: 3%;
+    width: 20%;
+    margin-left: 5%;
+  }
+ 
+  .child__age {
+    width: 10%;
+  }
+
+  .child__proj {
+    // width: 30%;
+    width: 20%;
+    margin-left: 5%;
+  }
+  
+  .child__add {
+    width: 5%;
+    border: none;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    // margin: 0 3rem;
+  }
+  
+  .child__status {
+    width: 10%;
+    color: green;
+    text-align: center;
+    margin-left: 5%;
+  }
+
+  .proj {
+    display: flex;
+    align-items: center;
+    // margin-left: 15%;
+  }
+  
+  .proj__name { 
+  // .project__meetings {
+    // width: 30%;
+    margin-right: 2rem;
+  }
+  
+  .proj__meetings {
+    display: flex;
+    margin: 0.1rem 0;
+  }
+  
+  .proj__marker {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius:50%;
+    border: 1px solid black;
+    background: white;
+    color: black;
+    margin: 0 0.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+
+  .proj__marker.completed {
+    color: white;
+    background: black;
+  }
+
+  .child__details {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../../assets/link.svg') center no-repeat;
+    background-size: contain;
+    transition: 1s;
+    margin-left: 5%;
+  }

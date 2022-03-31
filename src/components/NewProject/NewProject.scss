@@ -1,0 +1,57 @@
+@import "../../settings/fonts.scss";
+
+.newProject {
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  a {
+    width: unset;
+  }
+}
+
+.newProject__form__container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // opacity: 0;
+  transform: translateY(50px);
+
+  form {
+    width: 70%;
+    margin-left: 32px;
+  }
+
+  label {
+    width: 80%;
+  }
+
+  #dsc {
+    width: 100%;
+    input {
+      height: 100px;
+    }
+  }
+
+  #color {
+    padding: 1%;
+    height: 100%;
+  }
+}
+
+.newProject__buttons {
+  margin-top: 3rem;
+  width: 40%;
+  display: flex;
+}
+
+.newProject__img {
+  width: 50%;
+  background: url("https://images.unsplash.com/photo-1593748966033-ec8a641d4730?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80")
+    no-repeat center;
+  background-size: contain;
+  opacity: 0;
+  transform: translateY(150px);
+}
+

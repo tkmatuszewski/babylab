@@ -1,0 +1,45 @@
+@import "./../../settings/colors.scss";
+@import "./../../settings/fontSizes.scss";
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown__btn {
+    width: 25px;
+    height: 25px;
+    background: url(../../assets/circle-chevron-down-solid.svg) center;
+    background-size: cover;
+    border: none;
+    position: relative;
+    // font-size: $fontS;
+}
+
+.dropdown__content {
+    display: none;
+    min-width: 150px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    // transform: translateX(-30px);
+    // transform: translateX(-100%);
+    box-shadow: 7px 7px 20px rgba(0,0,0,0.4);
+}
+
+.dropdown__el{
+    display: block;
+    width: 100%;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    background: white;
+    transition: 0.5s;
+    font-size: $fontS;
+
+    &:hover {
+        background: lightgray;
+    }
+}
+
+.dropdown:hover .dropdown__content {display: block;}

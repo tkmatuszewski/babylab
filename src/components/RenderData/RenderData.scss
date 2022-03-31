@@ -1,0 +1,50 @@
+@import "../../settings/fontSizes.scss";
+
+.renderData__list {
+    width: 100%;
+    height: 85vh;
+    margin: 0 auto;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: $fontS;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 1rem;
+}
+
+.child__main {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+// .child__index {
+//     width: 5%;
+// }
+
+// .child__name {
+//     width: 10%;
+// }
+
+// .child__age {
+//     width: 5%;
+// }
+
+// .chld__projects {
+//     width: 25%;
+// }
+// .child__status {
+//     width: 15%;
+// }
+
+// .child__menu {
+//     width: 5%;
+// }
+
