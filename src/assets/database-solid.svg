@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   aria-hidden="true"
+   focusable="false"
+   data-prefix="fas"
+   data-icon="database"
+   class="svg-inline--fa fa-database"
+   role="img"
+   viewBox="0 0 448 512"
+   version="1.1"
+   id="svg875"
+   sodipodi:docname="database-solid.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata881">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs879" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     id="namedview877"
+     showgrid="false"
+     inkscape:zoom="1.6875"
+     inkscape:cx="224"
+     inkscape:cy="256"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg875" />
+  <path
+     fill="currentColor"
+     d="M448 73.12v45.75C448 159.1 347.6 192 224 192S0 159.1 0 118.9V73.12C0 32.88 100.4 0 224 0S448 32.88 448 73.12zM448 176v102.9C448 319.1 347.6 352 224 352S0 319.1 0 278.9V176c48.12 33.12 136.2 48.62 224 48.62S399.9 209.1 448 176zM448 336v102.9C448 479.1 347.6 512 224 512s-224-32.88-224-73.13V336c48.12 33.13 136.2 48.63 224 48.63S399.9 369.1 448 336z"
+     id="path873"
+     style="fill:#ffffff" />
+</svg>

@@ -1,0 +1,10 @@
+@import "./src/settings/colors";
+@import "./src/settings/widths";
+
+.main {
+    // width: 100%;
+    background-color: $mainBgColor;
+    display: flex;
+    // display: grid;
+    // grid-template-columns: 18% 82%;
+}

@@ -1,0 +1,48 @@
+@import "./src/settings/colors";
+@import "./src/settings/widths";
+
+.header {
+  height: 7vh;
+      // background: linear-gradient(45deg, gray, black);
+    // background: linear-gradient(to bottom, transparent, 90% gray);
+    border-bottom: 1px solid gray;
+  h1 {
+    margin-bottom: 2rem;      
+    font-family: sans-serif;
+  }
+}
+
+.headerCnt {
+    width: $mainWidth;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.logout {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    .logout__icon {
+      opacity: 1;
+    }
+  }
+}
+
+.logout {
+  font-family: "Montserrat", sans-serif;
+  // font-weight: 700;
+  font-size: $fontS;
+  // color: white;
+  cursor: pointer;
+  padding: 1rem;
+}
